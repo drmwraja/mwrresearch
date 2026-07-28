@@ -60,7 +60,7 @@ header .container{
     display:block;
     font-size:24px;
     font-weight:700;
-    margin-bottom:2px;   /* Reduce space here */
+    margin-bottom:0px;   /* Reduce space here */
 }
 
 .director-name span{
