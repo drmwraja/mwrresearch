@@ -83,14 +83,15 @@ nav a:hover{
    HERO SECTION
 =========================== */
 .hero{
+
     min-height:100vh;
 
-    background-image:
+    background:
         linear-gradient(
             rgba(4,12,30,0.45),
             rgba(4,12,30,0.55)
         ),
-        url("./images/hero-bg.png");
+        url("hero-bg.png");
 
     background-size:cover;
     background-position:center;
