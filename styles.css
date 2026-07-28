@@ -25,25 +25,15 @@ header{
 }
 
 header .container{
-
     display:flex;
-
     justify-content:space-between;
-
     align-items:center;
-
-    padding:18px 0;
-
+    padding:28px 0;
 }
 
-.logo-section{
-
-    display:flex;
-
-    align-items:center;
-
-    gap:18px;
-
+.logo-section h1{
+    color:#0B3D91;
+    font-size:28px;
 }
 
 .logo-section img{
@@ -53,22 +43,25 @@ header .container{
 }
 
 .logo-section h1{
-
     color:#0B3D91;
-
-    font-size:28px;
-
+    font-size:40px;
+    font-weight:700;
+    margin-bottom:4px;
 }
-
 .logo-section p{
-
     color:#00897B;
-
-    font-size:15px;
-
+    font-size:18px;
+    font-weight:500;
 }
 
 nav a{
+    text-decoration:none;
+    color:#333;
+    margin-left:32px;
+    font-size:17px;
+    font-weight:500;
+    transition:0.3s;
+}
 
     text-decoration:none;
 
