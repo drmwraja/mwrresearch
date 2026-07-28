@@ -103,10 +103,9 @@ nav a:hover{
 }
 
 .hero h1{
-    font-size:64px;
-    line-height:1.15;
-    max-width:700px;
-    margin-bottom:20px;
+    background:linear-gradient(180deg,#FFFFFF,#DCE6F2);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
 }
 
 .hero h2{
