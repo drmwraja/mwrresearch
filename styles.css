@@ -49,26 +49,25 @@ header .container{
     justify-content:space-between;
     align-items:center;
 }
+/* ==========================
+   DIRECTOR NAME
+========================== */
+
 .director-name{
     margin-top:12px;
     margin-bottom:20px;
+    font-size:18px;
+    font-weight:600;
     color:#CFEFFF;
-    line-height:1.2;
-}
-
-.director-name strong{
-    display:block;
-    font-size:24px;
-    font-weight:700;
-    margin-bottom:0px;   /* Reduce space here */
+    letter-spacing:0.3px;
+    text-shadow:0 0 6px rgba(176,224,230,0.30);
+    line-height:1.4;
 }
 
 .director-name span{
-    display:block;
-    font-size:15px;
-    color:#B8DFF5;
-    letter-spacing:0.5px;
-    margin-top:0;
+    color:#39FF14;
+    padding:0 10px;
+    font-weight:700;
 }
 /* ==========================
    LOGO
