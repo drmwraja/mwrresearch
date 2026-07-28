@@ -53,18 +53,22 @@ header .container{
     margin-top:12px;
     margin-bottom:20px;
     color:#CFEFFF;
+    line-height:1.2;
 }
 
 .director-name strong{
     display:block;
     font-size:24px;
     font-weight:700;
+    margin-bottom:2px;   /* Reduce space here */
 }
 
 .director-name span{
+    display:block;
     font-size:15px;
     color:#B8DFF5;
     letter-spacing:0.5px;
+    margin-top:0;
 }
 /* ==========================
    LOGO
