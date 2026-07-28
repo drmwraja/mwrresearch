@@ -110,9 +110,9 @@ nav a:hover{
 }
 
 .hero h2{
-    font-size:28px;
-    font-weight:400;
-    color:#d8f3ff;
+    font-size:30px;
+    font-weight:600;
+    color:#2ECC71;   /* Elegant Green */
     margin-bottom:25px;
 }
 
