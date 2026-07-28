@@ -1,14 +1,28 @@
+/* ==========================================
+   MWR RESEARCH WEBSITE
+   Author: Dr. Mir Wasim Raja
+========================================== */
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 body{
     font-family:'Inter',sans-serif;
     background:#ffffff;
     color:#222;
+    line-height:1.6;
 }
+
+/* ==========================
+   CONTAINER
+========================== */
 
 .container{
     width:90%;
@@ -16,128 +30,247 @@ body{
     margin:auto;
 }
 
+/* ==========================
+   HEADER
+========================== */
+
 header{
-    background:#ffffff;
-    border-bottom:1px solid #dddddd;
-    position:sticky;
+    position:absolute;
     top:0;
+    left:0;
+    width:100%;
     z-index:1000;
+    padding:22px 0;
+    background:transparent;
 }
 
 header .container{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:28px 0;
 }
 
-.logo-section h1{
-    color:#0B3D91;
-    font-size:28px;
+/* ==========================
+   LOGO
+========================== */
+
+.logo-section{
+    display:flex;
+    align-items:center;
+    gap:15px;
 }
 
 .logo-section img{
-    width:260px;
+    width:170px;
     height:auto;
 }
 
 .logo-section h1{
-    color:#0B3D91;
-    font-size:40px;
-    font-weight:700;
-    margin-bottom:4px;
+    display:none;
 }
+
 .logo-section p{
-    color:#00897B;
-    font-size:18px;
-    font-weight:500;
+    display:none;
+}
+
+/* ==========================
+   NAVIGATION
+========================== */
+
+nav{
+    display:flex;
+    gap:35px;
 }
 
 nav a{
     text-decoration:none;
-    color:#333;
-    margin-left:32px;
-    font-size:17px;
-    font-weight:500;
-    transition:0.3s;
-}
-
-    text-decoration:none;
-
-    color:#333;
-
-    margin-left:28px;
-
-    font-weight:500;
-
-    transition:0.3s;
-
+    color:#ffffff;
+    font-size:18px;
+    font-weight:600;
+    transition:.3s;
 }
 
 nav a:hover{
-
-    color:#0B3D91;
-
+    color:#39FF14;
 }
-/* ===========================
-   HERO SECTION
-=========================== */
+
+/* ==========================
+   HERO
+========================== */
+
 .hero{
 
     min-height:100vh;
 
+    display:flex;
+    align-items:center;
+
     background:
-        linear-gradient(
-            rgba(4,12,30,0.45),
-            rgba(4,12,30,0.55)
-        ),
-        url("hero-bg.png");
+    linear-gradient(
+    rgba(5,12,28,.60),
+    rgba(5,12,28,.70)
+    ),
+    url("hero-bg.png");
 
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
+}
 
-    display:flex;
-    align-items:center;
+.hero .container{
+    max-width:1300px;
 }
-}.hero .container{
-    max-width:1100px;
-    margin:auto;
-    padding:0 40px;
-}
+
+/* ==========================
+   HERO CONTENT
+========================== */
+
 .hero h1{
-    font-size:72px;
+
+    width:48%;
+
+    font-size:78px;
+
+    line-height:1.02;
+
     font-weight:800;
-    line-height:1.05;
 
-    background:linear-gradient(
-        180deg,
-        #FFFFFF 0%,
-        #EEF2F7 40%,
-        #D6E0EA 100%
-    );
+    color:white;
 
-    -webkit-background-clip:text;
-    -webkit-text-fill-color:transparent;
+    margin-bottom:25px;
 
-    text-shadow:0 2px 20px rgba(255,255,255,0.08);
 }
 
 .hero h2{
-    font-size:30px;
-    font-weight:600;
+
     color:#39FF14;
-    text-shadow:0 0 8px rgba(57,255,20,0.7);
-    margin-bottom:25px;
+
+    font-size:34px;
+
+    font-weight:700;
+
+    margin-bottom:28px;
+
+    text-shadow:0 0 10px rgba(57,255,20,.55);
+
 }
 
 .hero p{
-    color:#FFFFFF;
-    text-shadow:0 0 6px rgba(255,255,255,0.15);
+
+    width:45%;
+
+    color:#ffffff;
+
+    font-size:21px;
+
+    line-height:1.8;
+
+    margin-bottom:45px;
+
+}
+
+/* ==========================
+   BUTTONS
+========================== */
+
+.hero-buttons{
+
+    display:flex;
+
+    gap:20px;
+
+}
+
+.btn-primary{
+
+    background:#00B96B;
+
+    color:white;
+
+    padding:16px 34px;
+
+    border-radius:8px;
+
+    text-decoration:none;
+
+    font-weight:700;
+
+    transition:.3s;
+
+}
+
+.btn-primary:hover{
+
+    background:#00945a;
+
+    transform:translateY(-2px);
+
+}
+
+.btn-secondary{
+
+    color:white;
+
+    border:2px solid rgba(255,255,255,.8);
+
+    padding:16px 34px;
+
+    border-radius:8px;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn-secondary:hover{
+
+    background:white;
+
+    color:#0B3D91;
+
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media(max-width:992px){
+
+.hero h1{
+
+font-size:56px;
+
+width:100%;
+
+}
+
+.hero h2{
+
+font-size:28px;
+
+}
+
+.hero p{
+
+width:100%;
+
+font-size:18px;
+
+}
+
+nav{
+
+display:none;
+
 }
 
 .hero-buttons{
-    display:flex;
-    gap:20px;
-    flex-wrap:wrap;
+
+flex-wrap:wrap;
+
+}
+
 }
