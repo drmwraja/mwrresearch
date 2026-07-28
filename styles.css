@@ -305,138 +305,160 @@ flex-wrap:wrap;
 ABOUT PAGE
 =========================================*/
 
+/*==================================================
+ABOUT HERO
+==================================================*/
+
 .about-hero{
 
-padding:120px 10% 60px;
+    background:
+    linear-gradient(rgba(3,15,35,.82),
+    rgba(3,15,35,.82)),
+    url("hero-bg.png");
 
-text-align:center;
+    background-size:cover;
+    background-position:center;
 
-background:rgba(0,0,0,0.35);
+    padding:140px 20px 90px;
+
+    text-align:center;
 
 }
 
 .about-hero h1{
 
-font-size:48px;
+    color:#39FF14;
 
-color:#39FF14;
+    font-size:52px;
 
-margin-bottom:15px;
+    margin-bottom:15px;
 
 }
 
 .about-hero p{
 
-font-size:20px;
+    color:#ffffff;
 
-color:white;
+    font-size:22px;
+
+    letter-spacing:1px;
 
 }
 
+/*==================================================
+PROFILE
+==================================================*/
+
 .about-profile{
 
-width:85%;
+    width:85%;
 
-margin:auto;
+    margin:70px auto;
 
-padding:80px 0;
+    display:flex;
 
-display:flex;
+    align-items:center;
 
-align-items:center;
-
-gap:60px;
+    gap:70px;
 
 }
 
 .profile-image{
 
-flex:1;
+    flex:1;
 
-text-align:center;
+    text-align:center;
 
 }
 
 .profile-image img{
 
-width:320px;
+    width:320px;
 
-border-radius:20px;
+    border-radius:20px;
 
-box-shadow:0 0 35px rgba(57,255,20,0.35);
+    box-shadow:0 15px 40px rgba(0,0,0,.35);
+
+    transition:.4s;
+
+}
+
+.profile-image img:hover{
+
+    transform:scale(1.03);
 
 }
 
 .profile-details{
 
-flex:2;
+    flex:2;
 
 }
 
 .profile-details h2{
 
-font-size:42px;
+    color:#00c853;
 
-color:#39FF14;
+    font-size:42px;
 
-margin-bottom:10px;
+    margin-bottom:10px;
 
 }
 
 .profile-details h3{
 
-font-size:24px;
+    color:#1565c0;
 
-color:#CFEFFF;
+    font-size:28px;
 
-margin-bottom:20px;
-
-font-weight:500;
+    margin-bottom:18px;
 
 }
 
-.profile-details p{
+.designation{
 
-font-size:18px;
+    color:#555;
 
-line-height:1.8;
+    font-size:19px;
 
-color:white;
+    line-height:1.8;
 
-margin-bottom:30px;
+    margin-bottom:35px;
 
 }
 
 .profile-links{
 
-display:flex;
+    display:flex;
 
-flex-wrap:wrap;
+    flex-wrap:wrap;
 
-gap:15px;
+    gap:15px;
 
 }
 
 .profile-links a{
 
-padding:10px 20px;
+    padding:12px 22px;
 
-border:1px solid #39FF14;
+    border-radius:30px;
 
-border-radius:30px;
+    border:2px solid #00c853;
 
-text-decoration:none;
+    text-decoration:none;
 
-color:white;
+    color:#00c853;
 
-transition:.3s;
+    font-weight:600;
+
+    transition:.3s;
 
 }
 
 .profile-links a:hover{
 
-background:#39FF14;
+    background:#00c853;
 
-color:#000;
+    color:white;
 
 }
