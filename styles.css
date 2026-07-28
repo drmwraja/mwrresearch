@@ -82,20 +82,18 @@ nav a:hover{
 /* ===========================
    HERO SECTION
 =========================== */
-
 .hero{
-    min-height:100vh;
     background:
-        linear-gradient(rgba(8,34,76,0.70), rgba(8,34,76,0.70)),
-        url("https://images.unsplash.com/photo-1518152006812-edab29b069ac?auto=format&fit=crop&w=1800&q=80");
+        linear-gradient(
+            rgba(4,12,30,0.60),
+            rgba(4,12,30,0.60)
+        ),
+        url("hero-bg.png");
 
-    background-size:cover;
-    background-position:center;
-
-    display:flex;
-    align-items:center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-
 .hero .container{
     max-width:1100px;
     margin:auto;
