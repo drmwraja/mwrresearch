@@ -64,7 +64,23 @@ header .container{
 .logo-section img:hover{
     transform:scale(1.03);
 }
+.director-name{
+    margin-top:12px;
+    margin-bottom:20px;
+    color:#CFEFFF;
+}
 
+.director-name strong{
+    display:block;
+    font-size:24px;
+    font-weight:700;
+}
+
+.director-name span{
+    font-size:15px;
+    color:#B8DFF5;
+    letter-spacing:0.5px;
+}
 /* ==========================
    NAVIGATION
 ========================== */
