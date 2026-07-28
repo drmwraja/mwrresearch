@@ -37,9 +37,8 @@ header .container{
 }
 
 .logo-section img{
-
-    width:90px;
-
+    width:260px;
+    height:auto;
 }
 
 .logo-section h1{
