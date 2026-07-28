@@ -54,24 +54,15 @@ header .container{
    LOGO
 ========================== */
 
-.logo-section{
-    display:flex;
-    align-items:center;
-    gap:15px;
-}
-
 .logo-section img{
-    width:300px;
+    width:260px;
     height:auto;
+    filter:drop-shadow(0 2px 10px rgba(255,255,255,0.15));
     transition:0.3s ease;
 }
 
-.logo-section h1{
-    display:none;
-}
-
-.logo-section p{
-    display:none;
+.logo-section img:hover{
+    transform:scale(1.03);
 }
 
 /* ==========================
