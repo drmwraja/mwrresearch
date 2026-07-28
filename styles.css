@@ -301,3 +301,142 @@ flex-wrap:wrap;
 }
 
 }
+/*=========================================
+ABOUT PAGE
+=========================================*/
+
+.about-hero{
+
+padding:120px 10% 60px;
+
+text-align:center;
+
+background:rgba(0,0,0,0.35);
+
+}
+
+.about-hero h1{
+
+font-size:48px;
+
+color:#39FF14;
+
+margin-bottom:15px;
+
+}
+
+.about-hero p{
+
+font-size:20px;
+
+color:white;
+
+}
+
+.about-profile{
+
+width:85%;
+
+margin:auto;
+
+padding:80px 0;
+
+display:flex;
+
+align-items:center;
+
+gap:60px;
+
+}
+
+.profile-image{
+
+flex:1;
+
+text-align:center;
+
+}
+
+.profile-image img{
+
+width:320px;
+
+border-radius:20px;
+
+box-shadow:0 0 35px rgba(57,255,20,0.35);
+
+}
+
+.profile-details{
+
+flex:2;
+
+}
+
+.profile-details h2{
+
+font-size:42px;
+
+color:#39FF14;
+
+margin-bottom:10px;
+
+}
+
+.profile-details h3{
+
+font-size:24px;
+
+color:#CFEFFF;
+
+margin-bottom:20px;
+
+font-weight:500;
+
+}
+
+.profile-details p{
+
+font-size:18px;
+
+line-height:1.8;
+
+color:white;
+
+margin-bottom:30px;
+
+}
+
+.profile-links{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:15px;
+
+}
+
+.profile-links a{
+
+padding:10px 20px;
+
+border:1px solid #39FF14;
+
+border-radius:30px;
+
+text-decoration:none;
+
+color:white;
+
+transition:.3s;
+
+}
+
+.profile-links a:hover{
+
+background:#39FF14;
+
+color:#000;
+
+}
