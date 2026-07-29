@@ -309,19 +309,23 @@ ABOUT PAGE
 ABOUT HERO
 ==================================================*/
 
+/*==================================
+ABOUT HERO
+===================================*/
+
 .about-hero{
 
     background:
-    linear-gradient(rgba(3,15,35,.82),
-    rgba(3,15,35,.82)),
+    linear-gradient(rgba(2,18,45,.80),
+    rgba(2,18,45,.80)),
     url("hero-bg.png");
 
     background-size:cover;
     background-position:center;
 
-    padding:140px 20px 90px;
-
     text-align:center;
+
+    padding:150px 20px 100px;
 
 }
 
@@ -329,22 +333,21 @@ ABOUT HERO
 
     color:#39FF14;
 
-    font-size:52px;
+    font-size:54px;
 
-    margin-bottom:15px;
+    margin-bottom:20px;
 
 }
 
 .about-hero p{
 
-    color:#ffffff;
+    color:white;
 
     font-size:22px;
 
     letter-spacing:1px;
 
 }
-
 /*==================================================
 PROFILE
 ==================================================*/
