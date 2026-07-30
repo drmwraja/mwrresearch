@@ -347,13 +347,37 @@ ABOUT HERO
 /*==================================================
 PROFILE
 ==================================================*/
+/*==================================
+PROFILE CARD
+===================================*/
 
-.about-profile{
+.profile-card{
 
-    width:92%;
-    max-width:1450px;
+    display:flex;
 
-    margin:90px auto;
+    align-items:center;
+
+    gap:70px;
+
+    background:linear-gradient(135deg,#ffffff,#f8fbff);
+
+    border-radius:25px;
+
+    padding:50px;
+
+    box-shadow:0 20px 60px rgba(0,0,0,.12);
+
+    border-left:6px solid #00C853;
+
+    transition:.4s;
+
+}
+
+.profile-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 30px 70px rgba(0,0,0,.18);
 
 }
 
@@ -367,41 +391,35 @@ PROFILE
 
 .profile-image img{
 
-    width:320px;
+    width:340px;
 
     border-radius:20px;
 
-    box-shadow:0 15px 40px rgba(0,0,0,.35);
-
-    transition:.4s;
+    box-shadow:0 15px 45px rgba(0,0,0,.25);
 
 }
 
-.profile-image img:hover{
-
-    transform:scale(1.03);
-
-}
-
-.profile-details{
+.profile-content{
 
     flex:2;
 
 }
 
-.profile-details h2{
+.profile-content h2{
 
-    color:#00c853;
+    color:#00C853;
 
-    font-size:42px;
+    font-size:48px;
 
-    margin-bottom:10px;
+    font-weight:700;
+
+    margin-bottom:12px;
 
 }
 
-.profile-details h3{
+.profile-content h3{
 
-    color:#1565c0;
+    color:#1565C0;
 
     font-size:28px;
 
@@ -409,19 +427,33 @@ PROFILE
 
 }
 
-.designation{
+.institute{
 
     color:#555;
 
-    font-size:19px;
+    font-size:18px;
 
-    line-height:1.8;
+    line-height:1.9;
+
+    margin-bottom:30px;
+
+}
+
+.intro{
+
+    color:#444;
+
+    font-size:18px;
+
+    line-height:1.9;
+
+    text-align:justify;
 
     margin-bottom:35px;
 
 }
 
-.profile-links{
+.profile-buttons{
 
     display:flex;
 
@@ -431,17 +463,17 @@ PROFILE
 
 }
 
-.profile-links a{
-
-    padding:12px 22px;
-
-    border-radius:30px;
-
-    border:2px solid #00c853;
+.profile-buttons a{
 
     text-decoration:none;
 
-    color:#00c853;
+    padding:12px 24px;
+
+    border:2px solid #00C853;
+
+    border-radius:30px;
+
+    color:#00C853;
 
     font-weight:600;
 
@@ -449,7 +481,13 @@ PROFILE
 
 }
 
-.profile-links a:hover{
+.profile-buttons a:hover{
+
+    background:#00C853;
+
+    color:white;
+
+}
 
     background:#00c853;
 
