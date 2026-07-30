@@ -323,6 +323,8 @@ ABOUT HERO
 
     padding:190px 20px 140px;
 
+}   /* <-- THIS WAS MISSING */
+
 .about-hero h1{
 
     color:#39FF14;
@@ -330,16 +332,6 @@ ABOUT HERO
     font-size:54px;
 
     margin-bottom:20px;
-
-}
-
-.about-hero p{
-
-    color:white;
-
-    font-size:22px;
-
-    letter-spacing:1px;
 
 }
 /*==================================================
