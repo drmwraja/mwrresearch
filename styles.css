@@ -334,7 +334,21 @@ ABOUT HERO
     margin-bottom:20px;
 
 }
-/*==================================
+.about-hero p{
+
+    color:#ffffff;
+
+    font-size:22px;
+
+    letter-spacing:1px;
+
+    max-width:850px;
+
+    margin:0 auto;
+
+    line-height:1.6;
+
+}/*==================================
 SECTION TITLE
 ===================================*/
 
