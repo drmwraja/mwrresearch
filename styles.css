@@ -297,16 +297,13 @@ flex-wrap:wrap;
 }
 
 }
-/*=========================================
+/*==================================================
 ABOUT PAGE
-=========================================*/
-/*=========================================================
-ABOUT PAGE
-=========================================================*/
+==================================================*/
 
-/*--------------------------
+/*==================================
 ABOUT HERO
---------------------------*/
+==================================*/
 
 .about-hero{
 
@@ -318,9 +315,7 @@ ABOUT HERO
     background-position:center;
     background-repeat:no-repeat;
 
-   padding:220px 20px 140px;
-
-}
+    padding:220px 20px 140px;
 
     text-align:center;
 
@@ -328,13 +323,13 @@ ABOUT HERO
 
 .about-hero h1{
 
-    color:#39FF14;
+    color:#FFFFFF;
 
-    font-size:58px;
+    font-size:56px;
 
     font-weight:700;
 
-    margin-bottom:18px;
+    margin-bottom:20px;
 
 }
 
@@ -354,9 +349,9 @@ ABOUT HERO
 
 }
 
-/*--------------------------
-ABOUT PROFILE SECTION
---------------------------*/
+/*==================================
+ABOUT PROFILE
+==================================*/
 
 .about-profile{
 
@@ -366,9 +361,9 @@ ABOUT PROFILE SECTION
 
 }
 
-/*--------------------------
+/*==================================
 PROFILE CARD
---------------------------*/
+==================================*/
 
 .profile-card{
 
@@ -394,15 +389,15 @@ PROFILE CARD
 
 .profile-card:hover{
 
-    transform:translateY(-5px);
+    transform:translateY(-6px);
 
-    box-shadow:0 28px 70px rgba(0,0,0,.18);
+    box-shadow:0 30px 70px rgba(0,0,0,.18);
 
 }
 
-/*--------------------------
+/*==================================
 PROFILE IMAGE
---------------------------*/
+==================================*/
 
 .profile-image{
 
@@ -418,7 +413,7 @@ PROFILE IMAGE
 
     max-width:100%;
 
-    border-radius:22px;
+    border-radius:20px;
 
     box-shadow:0 18px 45px rgba(0,0,0,.25);
 
@@ -432,13 +427,15 @@ PROFILE IMAGE
 
 }
 
-/*--------------------------
+/*==================================
 PROFILE CONTENT
---------------------------*/
+==================================*/
 
 .profile-content{
 
     flex:2;
+
+    max-width:760px;
 
 }
 
@@ -448,9 +445,9 @@ PROFILE CONTENT
 
     font-size:48px;
 
-    margin-bottom:10px;
-
     font-weight:700;
+
+    margin-bottom:10px;
 
 }
 
@@ -460,13 +457,13 @@ PROFILE CONTENT
 
     font-size:28px;
 
-    margin-bottom:20px;
-
     font-weight:600;
+
+    margin-bottom:20px;
 
 }
 
-.institute{
+.profile-content .institute{
 
     color:#555;
 
@@ -492,9 +489,9 @@ PROFILE CONTENT
 
 }
 
-/*--------------------------
-BUTTONS
---------------------------*/
+/*==================================
+PROFILE BUTTONS
+==================================*/
 
 .profile-buttons{
 
@@ -534,9 +531,9 @@ BUTTONS
 
 }
 
-/*--------------------------
+/*==================================
 SECTION TITLE
---------------------------*/
+==================================*/
 
 .section-title{
 
@@ -564,9 +561,9 @@ SECTION TITLE
 
 }
 
-/*--------------------------
+/*==================================
 RESPONSIVE
---------------------------*/
+==================================*/
 
 @media(max-width:1100px){
 
@@ -579,6 +576,8 @@ RESPONSIVE
 }
 
 .profile-content{
+
+    max-width:100%;
 
     text-align:center;
 
@@ -596,7 +595,7 @@ RESPONSIVE
 
 .about-hero{
 
-    padding:150px 20px 100px;
+    padding:180px 20px 100px;
 
 }
 
@@ -636,7 +635,7 @@ RESPONSIVE
 
 }
 
-.institute{
+.profile-content .institute{
 
     font-size:16px;
 
@@ -660,7 +659,7 @@ RESPONSIVE
 
 .about-hero h1{
 
-    font-size:34px;
+    font-size:32px;
 
 }
 
