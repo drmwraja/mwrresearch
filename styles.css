@@ -382,7 +382,19 @@ PROFILE
 /*==================================
 PROFILE CARD
 ===================================*/
+/*==================================
+ABOUT PROFILE
+===================================*/
 
+.about-profile{
+
+    width:92%;
+
+    max-width:1450px;
+
+    margin:90px auto;
+
+}
 .profile-card{
 
     display:flex;
