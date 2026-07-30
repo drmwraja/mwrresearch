@@ -350,15 +350,10 @@ PROFILE
 
 .about-profile{
 
-    width:85%;
+    width:92%;
+    max-width:1450px;
 
-    margin:70px auto;
-
-    display:flex;
-
-    align-items:center;
-
-    gap:70px;
+    margin:90px auto;
 
 }
 
