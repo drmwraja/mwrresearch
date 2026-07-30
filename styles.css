@@ -353,14 +353,13 @@ ABOUT HERO
 ABOUT PROFILE
 ==================================*/
 
-.about-profile{
+.about-profile .container{
 
-    background:#f5f8fc;
+    max-width:1300px;
 
-    padding:90px 0;
+    margin:auto;
 
 }
-
 /*==================================
 PROFILE CARD
 ==================================*/
