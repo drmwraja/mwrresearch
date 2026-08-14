@@ -239,7 +239,7 @@ a {
         );
 
     min-height:
-        95px;
+        100px;
 
     margin:
         0 auto;
@@ -282,10 +282,10 @@ a {
 .brand-logo {
 
     width:
-        80px;
+        100px;
 
     height:
-        80px;
+       100px;
 
     object-fit:
         contain;
