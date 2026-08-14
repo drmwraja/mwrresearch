@@ -265,13 +265,12 @@ a {
 /* ===== LARGER MWR LOGO ===== */
 
 .site-header .brand-logo {
-    width: 100px !important;
-    height: 100px !important;
+    width: 200px !important;
+    height: auto !important;
+    max-height: 90px;
     object-fit: contain;
-    transform: scale(1.15);
-    transform-origin: left center;
+    display: block;
 }
-
 
 .brand-text {
 
@@ -2034,7 +2033,21 @@ This hero is deliberately FULL WIDTH.
     object-fit: contain;
     display: block;
 }
+/* =====================================================
+   LARGER MWR LOGO
+===================================================== */
 
+.site-header .brand-logo {
+    width: 200px !important;
+    height: auto !important;
+    max-height: 90px;
+    object-fit: contain;
+    display: block;
+}
+
+.nav-container {
+    min-height: 105px !important;
+}
 .nav-container {
     min-height: 88px;
 }
