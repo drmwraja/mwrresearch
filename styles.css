@@ -1987,3 +1987,16 @@ This hero is deliberately FULL WIDTH.
     }
 
 }
+/* =====================================================
+   FINAL LOGO SIZE OVERRIDE
+===================================================== */
+
+.site-header .brand-logo {
+    width: 100px !important;
+    height: 100px !important;
+    object-fit: contain;
+}
+
+.nav-container {
+    min-height: 105px !important;
+}
