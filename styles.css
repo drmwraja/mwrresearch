@@ -279,17 +279,14 @@ a {
 }
 
 
-.brand-logo {
+/* ===== LARGER MWR LOGO ===== */
 
-    width:
-        100px;
-
-    height:
-       100px;
-
-    object-fit:
-        contain;
-
+.site-header .brand-logo {
+    width: 100px !important;
+    height: 100px !important;
+    object-fit: contain;
+    transform: scale(1.15);
+    transform-origin: left center;
 }
 
 
